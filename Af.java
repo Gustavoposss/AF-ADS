@@ -2,9 +2,14 @@ package atividade;
 
 public class Af {
 
-	public static void main(String[] args) {
-		System.out.println("OLA MUNDO");
+	public void metodoUm() {
+        System.out.println("Este é o método Um.");
+    }
 
-	}
+    public void metodoDois() {
+        System.out.println("Este é o método Dois.");
 
+        // Chamada do método Um dentro do método Dois
+        metodoUm();
+    }
 }
